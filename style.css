@@ -1,0 +1,141 @@
+@font-face {
+  font-family: Inter;
+  src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter-bold;
+  src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+footer,
+header,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+footer,
+header,
+nav {
+  display: block;
+}
+button {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #0069ed;
+  color: #ffffff;
+  font-family: sans-serif;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover,
+button:focus {
+  background: #0053ba;
+}
+
+button:focus {
+  outline: 1px solid #fff;
+}
+
+.bold {
+  font-family: Inter-bold;
+}
+
+.heading {
+  font-size: 24px;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: Inter;
+  font-size: 14px;
+  position: relative;
+  margin: 0;
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 327px;
+  padding: 24px;
+  gap: 24px;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 12%);
+}
+
+.namelocation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.username {
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.linkbutton {
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: Inter;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  padding: 12px;
+  width: 100%;
+}
+
+.userpic {
+  img {
+    max-width: 88px;
+    max-height: 88px;
+    border-radius: 50%;
+  }
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  left: 10px;
+  font-size: 12px;
+}
